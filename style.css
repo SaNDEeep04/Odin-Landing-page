@@ -117,3 +117,35 @@ a {
     max-width: 150px;
     text-align: center;
 }
+.center-2{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.quote{
+    padding:200px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+.quote-txt{
+    width: 600px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    
+}
+
+.quotemaster{
+    font-size: 16px;
+    font-weight: bolder;
+}
