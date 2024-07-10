@@ -7,6 +7,7 @@ body {
 
 .header {
     background-color: #1f2937;
+
 }
 
 .header-bar {
@@ -37,6 +38,8 @@ body {
 
 .header img {
     flex-shrink: 0;
+    height: 500px;
+    width: 950px;
 }
 
 a {
@@ -97,14 +100,14 @@ a {
     padding-top: 50px;
 }
 
-.box{
+.box {
     border: #3882f6 solid;
-    height:150px;
+    height: 150px;
     width: 150px;
     border-radius: 15px;
 }
 
-.boxes{
+.boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -112,12 +115,13 @@ a {
     padding: 75px;
 }
 
-.undertext{
+.undertext {
     font-size: 18px;
     max-width: 150px;
     text-align: center;
 }
-.center-2{
+
+.center-2 {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -128,8 +132,8 @@ a {
 
 }
 
-.quote{
-    padding:200px ;
+.quote {
+    padding: 200px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -137,15 +141,68 @@ a {
 }
 
 
-.quote-txt{
+.quote-txt {
     width: 600px;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    
+
 }
 
-.quotemaster{
+.quotemaster {
     font-size: 16px;
     font-weight: bolder;
+}
+
+.blue-box{
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 850px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    flex-wrap: wrap;
+}
+
+.blue-box .signup{
+    border: #f9faf8 solid;
+    border-radius: 15px;
+}
+
+.signup{
+    flex-shrink: 0;
+}
+
+.action{
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.action,.info-text.subtext{
+    color: #f9faf8;
+}
+
+.footer{
+    text-align: center;
+    height: 72px;
+    margin-top: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
